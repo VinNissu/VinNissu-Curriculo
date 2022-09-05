@@ -15,142 +15,18 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="css/style.css">
+
 
     <!-- CSS INTERNO -->
-    <style>
-        body {
-            background-color: white;
-            color: black;
-            margin: 50px;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        h1 {
-            font-family: 'Audiowide', cursive;
-            text-align: center;
-
-        }
-
-        h2 {
-            color: rgb(98, 0, 255);
-            margin: 0;
-            font-family: 'Audiowide', cursive;
-        }
-
-        p {
-            margin: 5px;
-
-
-        }
-
-        ul {
-            margin: 5px;
-        }
-
-        ol {
-
-            margin: 5px;
-        }
-
-        /* outra maneira
-            
-                p,ol,ul{
-                margin: 3px;} 
-                    
-        */
-        a {
-            color: royalblue;
-        }
-
-        a:hover {
-            color: white;
-            background-color: rgb(98, 0, 255);
-            text-decoration: nome;
-        }
-
-        nav {
-            background-color: whitesmoke;
-            width: 50%;
-            margin: 0 auto;
-
-        }
-
-        nav ul {
-            list-style-type: none;
-            font-family: 'Audiowide', cursive;
-        }
-
-        .avatar {
-            width: 300px;
-            border: rgb(26, 26, 0) 5px solid;
-            border-radius: 50%;
-            box-shadow: gray 5px 5px 5px;
-
-        }
-
-        .content-container {
-            background-color: whitesmoke;
-            width: 70%;
-            margin-top: 100px;
-            margin-left: 15%;
-            padding: 20px;
-            border: 10px;
-        }
-
-        .rated {
-            color: rgb(155, 155, 149);
-
-
-        }
-
-        figure {
-
-            text-align: center;
-        }
-
-        nav {
-            width: 40%;
-            margin: 0 auto;
-        }
-
-        /* remove margem interna e marcações da lista */
-        nav ul {
-            padding: 0;
-            list-style-type: none;
-        }
-
-        /* define item de lista e link como tags do tipo block */
-        nav ul li,
-        nav ul li a {
-            display: block;
-            height: 30px;
-            margin-bottom: 4px;
-        }
-
-        /* aparência dos link */
-        nav ul li a {
-            text-decoration: none;
-            background-color: rgb(1, 1, 3);
-            color: white;
-            text-indent: 40px;
-            /* line-height: 30px; vai deixar a linha centralizada se o height tiver 30px tb */
-        }
-
-        nav ul li a :hover {
-            background-color: whitesmoke;
-            color: black;
-        }
-    </style>
 
 
 </head>
-<figure >
-    <img  class="avatar" width="200" 
-        src="imagens/vini.jpg"
-        alt="Foto de
+<figure>
+    <img class="avatar" width="200" src="imagens/vini.jpg" alt="Foto de
 perfil do Vinicius Luiz " id="start">
     <figcaption></figcaption>
-    
+
 </figure>
 
 
@@ -162,7 +38,10 @@ perfil do Vinicius Luiz " id="start">
     Objetivos, Dados pessoais, Histórico Acadêmico, Histórico profissional,
     habilidades,perfil  -->
     <div>
-        <h1 style="color: rgb(0, 0, 0);">  Curriculum Vitae <div><h1>Vinícius Luis</h1></div> </h1>
+        <h1 style="color: rgb(0, 0, 0);"> Curriculum Vitae <div>
+                <h1>Vinícius Luiz</h1>
+            </div>
+        </h1>
 
     </div>
 
@@ -187,7 +66,7 @@ perfil do Vinicius Luiz " id="start">
             <h2>Objetivos</h2>
             <p>Ingressar na área de T.I. em Desenvolvimento WEB, pode ser também
                 em Redes ou Hardware, pois estudei essas
-                 unidades curriculares.</p>
+                unidades curriculares.</p>
             <a href="#start"><i class="fa-solid fa-arrows-up-to-line"></i></a>
         </div>
 
@@ -198,19 +77,23 @@ perfil do Vinicius Luiz " id="start">
 
 
 
-        <div id="dados-pessoais" class="content-container"> 
+        <div id="dados-pessoais" class="content-container">
             <h2>Dados pessoais</h2>
             <!-- lista não ordenada -->
             <ul>
-                <li> <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noopener noreferrer">Email:vinicius.luiz0504@gmail.com</a></li>
+                <li> <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"
+                        rel="noopener noreferrer">Email:vinicius.luiz0504@gmail.com</a></li>
                 <li><a href="#dados-pessoais" rel="noopener noreferrer">Idade:23</a></li>
-                <li><a href="https://www.linkedin.com/in/vin%C3%ADcius-luiz-almeida-soares-220000239/" target="_blank" rel="noopener noreferrer">Linkedin/</a></li> 
-                <li><a href="https://www.instagram.com/vinnyalmeidabr/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="https://github.com/VinnyAlmeidaBR?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a> </li>
+                <li><a href="https://www.linkedin.com/in/vin%C3%ADcius-luiz-almeida-soares-220000239/" target="_blank"
+                        rel="noopener noreferrer">Linkedin/</a></li>
+                <li><a href="https://www.instagram.com/vinnyalmeidabr/" target="_blank"
+                        rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://github.com/VinnyAlmeidaBR?tab=repositories" target="_blank"
+                        rel="noopener noreferrer">GitHub</a> </li>
 
 
                 <li>Em desenvolvimento <i class="fa-solid fa-cog fa-spin"
-                    style="--fa-animation-direction: reverse;"></i>
+                        style="--fa-animation-direction: reverse;"></i>
 
 
             </ul>
@@ -235,14 +118,19 @@ perfil do Vinicius Luiz " id="start">
                         href="https://www.google.com/search?q=juvenal+machado+de+araujo+professor&rlz=1C1GCEA_enBR1019BR1019&oq=JUVE&aqs=chrome.0.69i59j69i57j46i433i512l2j0i131i433l2j69i60l2.720j0j7&sourceid=chrome&ie=UTF-8"
                         target="_blank" rel="noopener noreferrer">Escola</a></li>
 
-                <li>Curso Livre Assistente de suporte técnico e manutenção de computadores
+                <li>Curso Livre Assistente de suporte técnico e manutenção de computadores(280H)
                     <a href="https://www.sp.senac.br/senac-sao-jose-dos-campos/cursos-livres/curso-de-assistente-de-suporte-e-manutencao-de-computadores"
                         target="_blank" rel="noopener noreferrer">SENAC</a>
                 </li>
-                <li>Curso Técnico em informática
+                <li>Desenvolvedor Front-End Mobile(60H)
+                    <a href="https://www.sp.senac.br/cursos-livres/curso-de-desenvolvedor-front-end-mobile"
+                        target="_blank" rel="noopener noreferrer">SENAC </a>
+                    (cursando)
+                </li>
+                <li>Curso Técnico em informática(1200)
                     <a href="https://www.sp.senac.br/senac-sao-jose-dos-campos/cursos-tecnicos/curso-tecnico-em-informatica"
                         target="_blank" rel="noopener noreferrer">SENAC </a>
-                    (em andamento)
+                    (cursando)
                 <li>Em desenvolvimento <i class="fa-solid fa-cog fa-spin"
                         style="--fa-animation-direction: reverse;"></i>
 
@@ -254,19 +142,33 @@ perfil do Vinicius Luiz " id="start">
 
 
 
-        <div id="cursos-online" class="content-container">   
+        <div id="cursos-online" class="content-container">
             <h2>Cursos online</h2>
             <ol>
-                <li>Introdução à programação com Python (8H) <a href="https://web.dio.me/course/introducao-a-programacao-com-python/learning/1a4f5956-fe77-4e5a-bc3a-5364e06b5c79" target="_blank" rel="noopener noreferrer">DIO</a> |
-                <a href="https://certificates.digitalinnovation.one/F8643A73" target="_blank" rel="noopener noreferrer">Certificado</a></li>
+                <li>Introdução à programação com Python (8H) <a
+                        href="https://web.dio.me/course/introducao-a-programacao-com-python/learning/1a4f5956-fe77-4e5a-bc3a-5364e06b5c79"
+                        target="_blank" rel="noopener noreferrer">DIO</a> |
+                    <a href="https://certificates.digitalinnovation.one/F8643A73" target="_blank"
+                        rel="noopener noreferrer">Certificado</a>
+                </li>
 
-                <li>Lógica de programação Essencial (4H) <a href="https://web.dio.me/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405" target="_blank" rel="noopener noreferrer">DIO</a> |
-                    <a href="https://www.dio.me/certificate/EBC699CF/share" target="_blank" rel="noopener noreferrer">Certificado</a></li>
-                <li>Inglês Extremo - Curso Completo (11H) <a href="https://www.udemy.com/course/inglesextremo/" target="_blank" rel="noopener noreferrer">Udemy</a></li>
+                <li>Lógica de programação Essencial (4H) <a
+                        href="https://web.dio.me/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405"
+                        target="_blank" rel="noopener noreferrer">DIO</a> |
+                    <a href="https://www.dio.me/certificate/EBC699CF/share" target="_blank"
+                        rel="noopener noreferrer">Certificado</a>
+                </li>
+                <li>Inglês Extremo - Curso Completo (11H) <a href="https://www.udemy.com/course/inglesextremo/"
+                        target="_blank" rel="noopener noreferrer">Udemy</a></li>
 
-                <li>O curso completo de Banco de Dados e SQL (41H) <a href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/" target="_blank" rel="noopener noreferrer">Udemy</a></li>
-                
-                </ol>
+                <li>O curso completo de Banco de Dados e SQL (41H) <a
+                        href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/" target="_blank"
+                        rel="noopener noreferrer">Udemy</a></li>
+
+                <li>Em desenvolvimento <i class="fa-solid fa-cog fa-spin"
+                        style="--fa-animation-direction: reverse;"></i>
+
+            </ol>
         </div>
 
 
